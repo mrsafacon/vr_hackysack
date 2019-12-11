@@ -23,4 +23,4 @@ __hack-songManager.js__ -  Manages the song, adding layers to the music as the p
 The Blender 3D .blend files are found in the src folder. The models folder contains the exported glTF (.glb) files for use with AFrame.
 
 ___
-_Thanks to Jayson Gray for testing VR Headset functionality and providing the demo video shown above._
+_Thanks to Jayson G. for testing VR Headset functionality and providing the demo video shown above._
