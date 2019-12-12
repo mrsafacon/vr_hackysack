@@ -1,7 +1,7 @@
 # __Safacon's VR Hackysack__ #
 ![Demo Gif](/src/vr-hackysack-large.gif)
 
-## __[Play Now](https://play.safacon.com/vr_hackysack/)__ ##
+__[Play Now](https://play.safacon.com/vr_hackysack/)__
 
 ___
 
