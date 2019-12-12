@@ -16,7 +16,7 @@ Launch - Space
 Reset - R
 
 ## Scripts ##
-__hack-preload.js__ -  Components that need do be loaded before the game scene is loaded. Defined [A-Frame custom components](https://aframe.io/docs/master/introduction/writing-a-component.html) that generated custom Three.js materials to apply to the glTF models.  
+__hack-preload.js__ -  Components that need do be loaded before the game scene is loaded. Custom [A-Frame components](https://aframe.io/docs/master/introduction/writing-a-component.html) that generate and modify Three.js materials to apply to the glTF models.  
 __hack-main.js__ -  The main game loop, button input, animation and other main functionality.  
 __hack-kicks.js__ - The raycasting and physics involved with each kick.  
 __hack-domeManager.js__ - Manages the rotation for each of the wireframe domes.  
