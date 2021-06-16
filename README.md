@@ -3,14 +3,10 @@
 
 ## [Play Now](https://play.safacon.com/vr_hackysack/) ##
 
-___
-
 # About #
 A Virtual Reality Hackysack game prototype playable over the web. Use your virtual legs to keep the sack up. Best experienced with a VR Headset.
 
 Uses the [A-Frame](https://aframe.io/) web framework for VR.
-
-
 
 ## Controls: ## 
 Kicks - S D F J K L  
@@ -47,5 +43,7 @@ A well timed kick hits the sack between 70 ms and 150 ms after the player presse
 ## 3D ##
 
 The Blender 3D .blend files are found in the src folder. The models folder contains the exported glTF (.glb) files for use with A-Frame.
+
 ___
-_Thanks to Jayson G. for testing VR Headset functionality and providing the demo video shown above._
+
+_Thanks to __Jayson G.__ for testing VR Headset functionality and providing the demo video shown above._
