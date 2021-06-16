@@ -1,4 +1,8 @@
-let credits =
+/*
+Defining constants and preloading AFRAME data for collision and rendering
+*/
+
+const credits =
   `Design, Programming, Sound, Music, 3D
 by Omar Lopez
 www.safacon.com`
@@ -9,19 +13,19 @@ AFRAME.registerComponent('collider-check', {
 
 AFRAME.registerComponent('wf', {
   dependencies: ['material'],
-  init: function() {
+  init: function () {
     this.el.components.material.material.wireframe = true;
   }
 })
 
 AFRAME.registerComponent('sack', {
-  schema : {
-    wireframe : { type: 'boolean', default : true },
-    color : { type: 'string', default : '#00FF00'},
-    opacity : { type: 'number', default : 1 },
-    roughness : { type: 'number', default : 1 }
+  schema: {
+    wireframe: { type: 'boolean', default: true },
+    color: { type: 'string', default: '#00FF00' },
+    opacity: { type: 'number', default: 1 },
+    roughness: { type: 'number', default: 1 }
   },
-  init: function() {
+  init: function () {
     let data = this.data
     this.el.addEventListener('model-loaded', () => {
       const obj = this.el.getObject3D('mesh')
@@ -40,11 +44,11 @@ AFRAME.registerComponent('sack', {
 })
 
 AFRAME.registerComponent('sack-splash', {
-  schema : {
-    color : { type: 'string', default : '#00FF00'},
-    opacity : { type: 'number', default : .15 }
+  schema: {
+    color: { type: 'string', default: '#00FF00' },
+    opacity: { type: 'number', default: .15 }
   },
-  init: function() {
+  init: function () {
     let data = this.data
     this.el.addEventListener('model-loaded', () => {
       const obj = this.el.getObject3D('mesh')
@@ -62,7 +66,7 @@ AFRAME.registerComponent('sack-splash', {
 })
 
 AFRAME.registerComponent('key', {
-  init: function() {
+  init: function () {
     let data = this.data
     this.el.addEventListener('model-loaded', () => {
       const obj = this.el.getObject3D('mesh')
@@ -79,11 +83,11 @@ AFRAME.registerComponent('key', {
 
 
 AFRAME.registerComponent('dome', {
-  schema : {
-    color : { type: 'string', default : '#00FF00'},
-    opacity : { type: 'number', default : .7 }
+  schema: {
+    color: { type: 'string', default: '#00FF00' },
+    opacity: { type: 'number', default: .7 }
   },
-  init: function() {
+  init: function () {
     let data = this.data
     this.el.addEventListener('model-loaded', () => {
       const obj = this.el.getObject3D('mesh')
@@ -101,7 +105,7 @@ AFRAME.registerComponent('dome', {
 })
 
 AFRAME.registerComponent('legs', {
-  init: function() {
+  init: function () {
     this.el.addEventListener('model-loaded', () => {
       const obj = this.el.getObject3D('mesh')
       obj.traverse(node => {
