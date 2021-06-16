@@ -1,16 +1,18 @@
 # __Safacon's VR Hackysack__ #
 ![Demo Gif](/src/vr-hackysack-large.gif)
 
-__[Play Now](https://play.safacon.com/vr_hackysack/)__
+## [Play Now](https://play.safacon.com/vr_hackysack/) ##
 
 ___
 
-## About ##
+# About #
 A Virtual Reality Hackysack game prototype playable over the web. Use your virtual legs to keep the sack up. Best experienced with a VR Headset.
 
 Uses the [A-Frame](https://aframe.io/) web framework for VR.
 
-__Controls:__  
+
+
+## Controls: ## 
 Kicks - S D F J K L  
 Launch - Space  
 Reset - R
